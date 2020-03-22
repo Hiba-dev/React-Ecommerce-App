@@ -1,0 +1,49 @@
+:root {
+  --DarkBlue: #0b0b5a;
+  --LightBlue: #009ffd;
+  --MainWhite: #f3f3f3;
+  --MainBlack: #000;
+  --MainYellow: #ffa400;
+}
+
+body{
+    color: black;
+    font-family: 'Acme',sans-serif !important;
+    background-color: #fffbfb;
+}
+nav{
+  font-family: 'Bangers',sans-serif !important;
+}
+
+.title{
+    color: var(--MainBlack);
+    font-family: 'Pacifico',sans-serif !important;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-size: 3em;
+}
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--MainBlack);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--MainBlack) !important;
+  }
+  .btn-black:hover {
+    background: var(--MainBlack) !important;
+    color: var(--MainWhite) !important;
+  }
+  .cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--MainYellow);
+  }
+  .columns{
+      font-size: x-large;
+  }
+  .text-title {
+    font-family: "Pacifico", cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
