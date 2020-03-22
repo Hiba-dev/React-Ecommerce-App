@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import {Switch,Route} from 'react-router-dom'
 import Productlist from './productlist'
-import Cart from './Cart/cart';
+import Cart from './cart/cart';
 import Navbar from './navbar'
 import Details from './details'
 import Default from './default'
